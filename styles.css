@@ -1,0 +1,95 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #007bff;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-wrapper {
+    position: relative;
+    width: 200px; /* Set the desired width */
+    height: 300px; /* Set the desired height */
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card1 {
+    background-color: #ff5733; /* Set your desired color */
+    z-index: 3;
+    top: 0;
+}
+
+.card2 {
+    background-color: #33a7ff; /* Set your desired color */
+    z-index: 2;
+    bottom: 20px; /* Adjust as needed to create the stacking effect */
+}
+
+.card3 {
+    background-color: #33ff57; /* Set your desired color */
+    z-index: 1;
+    top: 40px; /* Adjust as needed to create the stacking effect */
+}
